@@ -1,13 +1,7 @@
 export const userRole = ['buyer', 'seller'];
 export const userSearchableFields = [
-  'role',
-  'phoneNumber',
+  'email',
   'name.firstName',
   'name.lastName',
 ];
-export const userFilterableFields = [
-  'searchTerm',
-  'role',
-  'budget',
-  'phoneNumber',
-];
+export const userFilterableFields = ['searchTerm', 'email'];
