@@ -1,49 +1,29 @@
 import { Schema, model } from 'mongoose';
 import { BookModel, IBook } from './book.interface';
-import { Breed, Category, Label, Location } from '../../../enums/book';
+import { BookGenre } from '../../../enums/book';
 
 const bookSchema = new Schema<IBook>(
   {
-    name: {
+    title: {
       type: String,
       required: true,
     },
-    age: {
-      type: Number,
-      required: true,
-    },
-    price: {
-      type: Number,
-      required: true,
-    },
-    location: {
+    author: {
       type: String,
-      enum: Location,
       required: true,
     },
-    breed: {
+    genre: {
       type: String,
-      enum: Breed,
+      enum: BookGenre,
       required: true,
     },
-    weight: {
-      type: Number,
-      required: true,
-    },
-    label: {
+    publicationDate: {
       type: String,
-      enum: Label,
-      default: 'for sale',
-    },
-    category: {
-      type: String,
-      enum: Category,
       required: true,
     },
-    seller: {
-      type: Schema.Types.ObjectId,
-      ref: 'User',
-      required: true,
+    reviews: {
+      type: [String],
+      default: [],
     },
   },
   {
