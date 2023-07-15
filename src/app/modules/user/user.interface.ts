@@ -3,28 +3,23 @@ import { Model } from 'mongoose';
 
 export type UserName = {
   firstName: string;
-  middleName: string;
   lastName: string;
 };
 
 export type IUser = {
   _id?: string;
-  password: string;
-  role: 'buyer' | 'seller';
   name: UserName;
-  phoneNumber: string;
-  address: string;
-  budget: number;
-  income: number;
+  email: string;
+  password: string;
 };
 
 export type UserModel = {
   isUserExsist(
-    phoneNumber: string
-  ): Promise<Pick<IUser, '_id' | 'role' | 'password' | 'phoneNumber'>>;
+    phoneNumber: string,
+  ): Promise<Pick<IUser, '_id' | 'email' | 'password'>>;
   isPasswordMatched(
     givenPassword: string,
-    savedPassword: string
+    savedPassword: string,
   ): Promise<boolean>;
 } & Model<IUser, Record<string, unknown>>;
 export type IUserFilters = { searchTerm?: string };

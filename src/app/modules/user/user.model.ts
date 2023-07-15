@@ -3,19 +3,9 @@ import { Schema, model } from 'mongoose';
 import { IUser, UserModel } from './user.interface';
 import bcrypt from 'bcrypt';
 import config from '../../../config';
-import { ENUM_USER_ROLE } from '../../../enums/user';
+
 const UserSchema = new Schema<IUser, UserModel>(
   {
-    password: {
-      type: String,
-      required: true,
-      select: false,
-    },
-    role: {
-      type: String,
-      required: true,
-      enum: ENUM_USER_ROLE,
-    },
     name: {
       type: {
         firstName: {
@@ -29,22 +19,16 @@ const UserSchema = new Schema<IUser, UserModel>(
       },
       required: true,
     },
-    phoneNumber: {
+    email: {
       type: String,
+      required: true,
       unique: true,
-      required: true,
     },
-    address: {
+    password: {
       type: String,
       required: true,
-    },
-    budget: {
-      type: Number,
-      required: true,
-    },
-    income: {
-      type: Number,
-      required: true,
+      select: false,
+      unique: true,
     },
   },
   {
@@ -52,21 +36,21 @@ const UserSchema = new Schema<IUser, UserModel>(
     toJSON: {
       virtuals: true,
     },
-  }
+  },
 );
 
 UserSchema.statics.isUserExsist = async function (
-  phoneNumber: string
-): Promise<Pick<IUser, '_id' | 'phoneNumber' | 'role' | 'password'> | null> {
+  phoneNumber: string,
+): Promise<Pick<IUser, '_id' | 'email' | 'password'> | null> {
   return await User.findOne(
     { phoneNumber },
-    { _id: 1, role: 1, password: 1, phoneNumber: 1 }
+    { _id: 1, role: 1, password: 1, phoneNumber: 1 },
   );
 };
 
 UserSchema.statics.isPasswordMatched = async function (
   givenPassword: string,
-  savedPassword: string
+  savedPassword: string,
 ): Promise<boolean> {
   return await bcrypt.compare(givenPassword, savedPassword);
 };
