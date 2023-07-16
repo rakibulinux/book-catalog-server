@@ -1,28 +1,8 @@
-### Live Link:
+### Live Link: https://book-catalog-d9f88.web.app/
 
-### Application Routes:
+### Server: https://github.com/rakibulinux/book-catalog-server.git
 
-## Main part
-
-### Auth (User)
-
-### Auth (Admin)
-
-### User
-
-#### Books
-
-#### Orders
-
-## Bonus Part
-
-#### Wishlist
-
--Route:
-
-#### My Profile
-
-#### Order:
+### Client: https://github.com/rakibulinux/book-catalog-client.git
 
 - Genarate Secret:
   require('crypto').randomBytes(64).toString('hex')

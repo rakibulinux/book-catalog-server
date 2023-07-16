@@ -6,7 +6,9 @@ const createBookZodSchema = z.object({
     title: z.string({ required_error: 'Title is required' }),
     image: z.string(),
     author: z.string({ required_error: 'Author is required' }),
-    genre: z.enum([...BookGenres] as [string, ...string[]]).optional(),
+    genre: z.enum([...BookGenres] as [string, ...string[]], {
+      required_error: 'Genre is required',
+    }),
     publicationDate: z.string({ required_error: 'Date is required' }),
   }),
 });
