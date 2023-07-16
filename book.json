@@ -1,0 +1,185 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "image": "https://m.media-amazon.com/images/I/9120n2dw5NL._AC_UF1000,1000_QL80_.jpg",
+    "author": "Harper Lee",
+    "genre": "Novel",
+    "publicationDate": "1960-07-11",
+    "reviews": ["A timeless classic!", "Highly recommended"]
+  },
+  {
+    "title": "1984 | Nineteen Eighty-Four",
+    "image": "https://m.media-amazon.com/images/I/519zR2oIlmL._AC_UF1000,1000_QL80_.jpg",
+    "author": "George Orwell",
+    "genre": "Novel",
+    "publicationDate": "1949-06-08",
+    "reviews": [
+      "A thought-provoking dystopian novel",
+      "A must-read for everyone"
+    ]
+  },
+  {
+    "title": "The Great Gatsby",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Novel",
+    "publicationDate": "1925-04-10",
+    "reviews": ["Beautifully written", "Captivating story"]
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/b4f38e16a_152530.jpg",
+    "author": "Yuval Noah Harari",
+    "genre": "Novel",
+    "publicationDate": "2011-02-10",
+    "reviews": ["Insightful and eye-opening", "A fascinating read"]
+  },
+  {
+    "title": "Educated: A Memoir",
+    "image": "https://m.media-amazon.com/images/I/812wVvcrAjL._AC_UF894,1000_QL80_.jpg",
+    "author": "Tara Westover",
+    "genre": "Novel",
+    "publicationDate": "2018-02-20",
+    "reviews": ["An inspiring memoir", "Couldn't put it down"]
+  },
+  {
+    "title": "Pride and Prejudice",
+    "image": "https://prodimage.images-bn.com/pimages/9781435159631_p0_v1_s1200x630.jpg",
+    "author": "Jane Austen",
+    "genre": "Novel",
+    "publicationDate": "1813-01-28",
+    "reviews": ["A timeless romance", "A classic that never gets old"]
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "image": "https://m.media-amazon.com/images/I/61fgOuZfBGL._AC_UF1000,1000_QL80_.jpg",
+    "author": "J.D. Salinger",
+    "genre": "Novel",
+    "publicationDate": "1951-07-16",
+    "reviews": ["An iconic coming-of-age novel", "Must-read for teenagers"]
+  },
+  {
+    "title": "The Hobbit",
+    "image": "https://m.media-amazon.com/images/I/710+HcoP38L._AC_UF1000,1000_QL80_.jpg",
+    "author": "J.R.R. Tolkien",
+    "genre": "Novel",
+    "publicationDate": "1937-09-21",
+    "reviews": ["A delightful adventure", "Perfect for fantasy lovers"]
+  },
+  {
+    "title": "The Alchemist",
+    "image": "https://m.media-amazon.com/images/I/51bVNTqHFlL._AC_UF1000,1000_QL80_.jpg",
+    "author": "Paulo Coelho",
+    "genre": "Novel",
+    "publicationDate": "1988-01-01",
+    "reviews": ["A philosophical and inspiring story", "Life-changing"]
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "image": "https://m.media-amazon.com/images/I/81iqZ2HHD-L._AC_UF1000,1000_QL80_.jpg",
+    "author": "J.K. Rowling",
+    "genre": "Novel",
+    "publicationDate": "1997-06-26",
+    "reviews": [
+      "The start of a magical journey",
+      "Captivating from the first page"
+    ]
+  },
+  {
+    "title": "The Lord of the Rings",
+    "image": "https://m.media-amazon.com/images/I/71jLBXtWJWL._AC_UF1000,1000_QL80_.jpg",
+    "author": "J.R.R. Tolkien",
+    "genre": "Novel",
+    "publicationDate": "1954-07-29",
+    "reviews": ["An epic fantasy masterpiece", "Immersive world-building"]
+  },
+  {
+    "title": "The Diary of a Young Girl",
+    "image": "https://d1cm35kbp068hs.cloudfront.net/m1hncdmuls/thumbnail.jpg",
+    "author": "Anne Frank",
+    "genre": "Novel",
+    "publicationDate": "1947-06-25",
+    "reviews": [
+      "A haunting and powerful memoir",
+      "Important historical account"
+    ]
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "image": "https://m.media-amazon.com/images/I/81kC0UiMQmL._AC_UF1000,1000_QL80_.jpg",
+    "author": "C.S. Lewis",
+    "genre": "Novel",
+    "publicationDate": "1950-10-16",
+    "reviews": ["A magical and enchanting series", "Great for all ages"]
+  },
+  {
+    "title": "Brave New World",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg",
+    "author": "Aldous Huxley",
+    "genre": "Novel",
+    "publicationDate": "1932-01-01",
+    "reviews": ["A dystopian classic", "Provocative and thought-provoking"]
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "image": "https://m.media-amazon.com/images/I/419aqGww7yL._AC_UF1000,1000_QL80_.jpg",
+    "author": "Oscar Wilde",
+    "genre": "Novel",
+    "publicationDate": "1890-07-01",
+    "reviews": ["A dark and philosophical novel", "Beautifully written"]
+  },
+  {
+    "title": "Moby-Dick",
+    "image": "https://m.media-amazon.com/images/I/71CjE6EJjuL._AC_UF1000,1000_QL80_.jpg",
+    "author": "Herman Melville",
+    "genre": "Novel",
+    "publicationDate": "1851-10-18",
+    "reviews": ["An epic tale of obsession", "Literary masterpiece"]
+  },
+  {
+    "title": "The Odyssey",
+    "image": "https://m.media-amazon.com/images/I/819IxwjBa9L._AC_UF1000,1000_QL80_.jpg",
+    "author": "Homer",
+    "genre": "Novel",
+    "publicationDate": "8th century BCE",
+    "reviews": ["One of the greatest epic poems", "Enduring literary work"]
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660273739i/11870085.jpg",
+    "author": "John Green",
+    "genre": "Novel",
+    "publicationDate": "2012-01-10",
+    "reviews": [
+      "A heartbreaking and beautifully written story",
+      "Touches your heart"
+    ]
+  },
+  {
+    "title": "The Hunger Games",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61nZqhftUPL.jpg",
+    "author": "Suzanne Collins",
+    "genre": "Novel",
+    "publicationDate": "2008-09-14",
+    "reviews": ["An exciting dystopian adventure", "Keeps you on the edge"]
+  },
+  {
+    "title": "The Da Vinci Code",
+    "image": "https://m.media-amazon.com/images/I/91Q5dCjc2KL._AC_UF1000,1000_QL80_.jpg",
+    "author": "Dan Brown",
+    "genre": "Novel",
+    "publicationDate": "2003-03-18",
+    "reviews": ["A gripping thriller", "Page-turner with unexpected twists"]
+  },
+  {
+    "title": "Gone Girl",
+    "image": "https://m.media-amazon.com/images/I/71+khXHbe5L._AC_UF894,1000_QL80_.jpg",
+    "author": "Gillian Flynn",
+    "genre": "Novel",
+    "publicationDate": "2012-06-05",
+    "reviews": [
+      "A thrilling and suspenseful novel",
+      "Keeps you guessing until the end"
+    ]
+  }
+]

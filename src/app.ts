@@ -6,6 +6,7 @@ import routers from './app/routes';
 import cookieParser from 'cookie-parser';
 const app: Application = express();
 
+//Middlewares
 app.use(cors());
 app.use(cookieParser());
 app.use(express.json());

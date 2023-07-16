@@ -1,9 +1,12 @@
 export const BookGenres = [
   'Novel',
+  'Bildungsroman',
+  'Domestic Fiction',
   'Narrative',
   'Science fiction',
   'Genre fiction',
   'Mystery',
+  'Southern Gothic',
   'Historical Fiction',
   'Romance novel',
   'Thriller',
@@ -39,6 +42,7 @@ export const BookGenres = [
   'Speculative fiction',
   'Fairy tale',
   'Paranormal romance',
+  'Legal Story',
 ];
 export const bookSearchableFields = ['name', 'location', 'price'];
 export const bookFilterableFields = ['searchTerm', 'name', 'location', 'price'];

@@ -44,6 +44,7 @@ export type BookGenres =
 
 export type IBook = {
   title: string;
+  image: string;
   author: string;
   genre: BookGenres;
   publicationDate: string;

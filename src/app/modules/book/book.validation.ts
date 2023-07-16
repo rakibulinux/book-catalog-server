@@ -4,10 +4,9 @@ import { BookGenres } from './book.constent';
 const createBookZodSchema = z.object({
   body: z.object({
     title: z.string({ required_error: 'Title is required' }),
+    image: z.string(),
     author: z.string({ required_error: 'Author is required' }),
-    genre: z.enum([...BookGenres] as [string, ...string[]], {
-      required_error: 'Location is required',
-    }),
+    genre: z.enum([...BookGenres] as [string, ...string[]]).optional(),
     publicationDate: z.string({ required_error: 'Date is required' }),
   }),
 });
